@@ -3,11 +3,11 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: encoder-fix
-      url-base: https://github.com/infused-kim
+      url-base: https://github.com/andre-tm-hui
   projects:
     - name: zmk
       remote: encoder-fix
-      revision: my-changes/split-encoder
+      revision: sofle
       import: app/west.yml
   self:
     path: config
