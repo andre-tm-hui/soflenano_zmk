@@ -6,8 +6,8 @@ manifest:
       url-base: https://github.com/andre-tm-hui
   projects:
     - name: zmk
-      remote: encoder-fix
-      revision: my-changes/split-encoder
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
